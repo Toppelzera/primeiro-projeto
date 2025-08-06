@@ -1,0 +1,72 @@
+.grid-container {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 30px;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.home-grid {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.opala-grid {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.fusca-grid {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.maverick-grid {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.mustang-grid {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  color: ffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+}
